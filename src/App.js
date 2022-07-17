@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import Component1 from "./components/Component1";
+import Component1 from "./components/HeroSection";
 import Component2 from "./components/Component2";
 
 function App() {

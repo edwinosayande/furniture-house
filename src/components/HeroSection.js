@@ -1,5 +1,6 @@
 import React from 'react'
 import CssBaseline from '@mui/material/CssBaseline';
+import '../styles/HeroSection.css';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
@@ -13,7 +14,7 @@ import sit from "../images/sit.png";
 import bulb from "../images/bulb.png";
 
 
-function Component1() {
+function HeroSection() {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
     const handleClick = (event) => {
@@ -29,8 +30,7 @@ function Component1() {
   
   return (
     <React.Fragment>
-    <CssBaseline />
-    <Container fixed style={{backgroundColor: "rgb(144, 157, 119)" }}>
+    <div className='hero-wrapper'>
     <Button style={{marginLeft: "20px",  marginTop: "40px", color: "white"}}
       >
         Fundo
@@ -146,7 +146,7 @@ function Component1() {
         <img src={frame2} alt="frame2"  style={{ width: "100px", position: "absolute", bottom: "60%", left: "57%" }}/>
         <img src={frame3} alt="frame3"  style={{ width: "70px", position: "absolute", bottom: "44%", left: "59%" }}/>
       </div>
-    </Container>
+    </div>
     <div>
     <img src={sit} alt="sit"  style={{ width: "500px", position: "absolute", top: "67%", left: "40%" }}/>
     <img src={bulb} alt="bulb"  style={{ width: "70px", position: "absolute", top: "48%", left: "81%"}}/>
@@ -154,4 +154,4 @@ function Component1() {
   </React.Fragment>
   )
 }
-export default Component1;
+export default HeroSection;

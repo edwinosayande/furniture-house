@@ -31,7 +31,7 @@ function HeroSection() {
   return (
     <React.Fragment>
     <div className='hero-wrapper'>
-    <Button style={{marginLeft: "20px",  marginTop: "40px", color: "white"}}
+    <Button className="fun_btn" style={{marginLeft: "80px",  marginTop: "40px", color: "white"}}
       >
         Fundo
       </Button>
@@ -115,7 +115,7 @@ function HeroSection() {
         <MenuItem onClick={handleClose}>Logout</MenuItem>
       </Menu>
 
-      <div className="writeup" style={{ marginLeft: "30px",
+      <div className="writeup" style={{ marginLeft: "90px",
     marginTop: "50px", color: "white" }}>
         <h2>Furniture that <br></br>Everyone <br></br>Loves</h2>
       

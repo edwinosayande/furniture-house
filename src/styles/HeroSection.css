@@ -3,4 +3,9 @@
     background-color: rgb(144, 157, 119);
     overflow: hidden;
 }
+.fun_btn{
+    margin-left: 80px;  
+    margin-top: 40px;
+    color: white;
+}
 

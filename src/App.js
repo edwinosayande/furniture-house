@@ -1,14 +1,14 @@
 import React from "react";
 import './App.css';
 import Component1 from "./components/HeroSection";
-import Component2 from "./components/Component2";
+import Secondsection from "./components/Secondsection";
 
 function App() {
   return (
     <div>
     <Component1 />
     <br></br><br></br><br></br><br></br>
-    <Component2 />
+    <Secondsection />
     </div>
   );
 }

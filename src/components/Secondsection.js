@@ -8,7 +8,7 @@ import wdchair from "../images/wdchair.png";
 import sillon from "../images/sillon.jpg";
 import tree from "../images/tree.png";
 
-function Component2() {
+function Secondsection() {
   return (
     <React.Fragment>
     <CssBaseline />
@@ -50,4 +50,4 @@ function Component2() {
   </React.Fragment>
   )
 }
-export default Component2
+export default Secondsection

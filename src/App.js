@@ -1,14 +1,17 @@
 import React from "react";
 import './App.css';
-import Component1 from "./components/HeroSection";
+import Herosection from "./components/HeroSection";
 import Secondsection from "./components/Secondsection";
+import Component4 from "./components/Component4";
 
 function App() {
   return (
     <div>
-    <Component1 />
-    <br></br><br></br><br></br><br></br>
+    <Herosection />
+    <div style={{marginTop: "120px"}}>
     <Secondsection />
+    </div>
+    <Component4 />
     </div>
   );
 }
